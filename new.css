@@ -1,0 +1,37 @@
+#headshotImage{
+    float: left;
+    padding-right: 20px;
+}
+
+#bioSection{
+
+    margin-top: 30px;
+}
+
+#bioSection > p{
+text-align: left;
+}
+
+#Highlights{
+
+    float: left;
+    padding: 10px;
+font-weight: bold;
+}
+
+.footerUL{
+text-align: center;
+}
+
+footer{
+    background-color: rgb(207, 216, 226);
+}
+
+
+.ContactForm{
+margin: 40px;
+}
+
+.ContactForm>h3{
+    padding-bottom: 15px;
+}
