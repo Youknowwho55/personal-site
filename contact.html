@@ -1,74 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="new.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Fasthand">
-    <title>Home</title>
-  </head>
-  
-  <nav class="menu-bar">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="resume.html">Resume</a></li>
-      <li><a href="contact.html">Contact</a></li>
-  
-      <div class="dropdown">
-        <button class="dropbtn">Projects</button>
-        <div class="dropdown-content">
-          <a href="#">Coding</a>
-          <a href="#">Mortgage</a>
-          <a href="#">3D Printing</a>
-          <a href="https://solarpower-plus.com">Solar</a>
-          <a href="https://www.podbean.com/ew/pb-asn38-143e63a">Podcasting?</a>
-          <a href="#">Marketing?</a>
-  
-        </div>
+    href="https://fonts.googleapis.com/css2?family=Fasthand">
+
+</head>
+
+<nav class="navbar navbar-expand-lg " style="background-color: #e3f2fd;" >
+    <div class="container-fluid" >
+      <a class="navbar-brand" href="index.html"><img src="DR-Logo.jpg" height="30px" alt="Personal Logo"></a>
+       
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="resume.html">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Projects
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Coding</a></li>
+              <li><a class="dropdown-item" href="#">Mortgage</a></li>
+              <li><a class="dropdown-item" href="#">3D Printing Blog</a></li>
+              <li><a class="dropdown-item" href="https://solarpower-plus.com">Solar</a></li>
+              <li><a class="dropdown-item" href="https://www.podbean.com/ew/pb-asn38-143e63a">Podcasting</a></li>
+
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">More to come!</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        
       </div>
-      
-    </ul>
+    </div>
   </nav>
   
+
+
+<br>
+
+<div class="ContactForm">
+  <h3>Please fill out form below with your message:</h3>
+
+<div class=" mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Name</label>
+  <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Insert Name">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlInput2" class="form-label">Email address</label>
+  <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+</div>
+
+
+<br>
+
+
+
+
+
+<div class="container">
+  <footer class="py-5">
+      <div class="row">
+        <div class="col-6 col-md-6 mb-3 justify-content-center mx-auto">
+          <ul class="nav flex-column justify-content-center" >
+            <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="resume.html" class="nav-link p-0 text-body-secondary">Resume</a></li>
+            <li class="nav-item mb-2"><a href="contact.html" class="nav-link p-0 text-body-secondary">Contact</a></li>
+
+          </ul>
+        </div>
   
-  <p>have a form here for contact</p>
-<h1>USE THIS SECTION TO LEARN HOW TO SUBMIT A FORM AND HAVE IT SENT TO DATABASE/ STORE EMAIL+ MESSAGE</h1>
 
-<h3>Please contact me via email for quickest response</h3>
-<p>or fill out the form below</p>
-
-
-
-        <form action="" method="get" class="form-example">
-            <div class="form-example">
-              <label for="name">Enter your name: </label>
-              <input type="text" name="name" id="name" required>
-            </div>
-            <div class="form-example">
-              <label for="email">Enter your email: </label>
-              <input type="email" name="email" id="email" required>
-            </div>
-            <div class="form-example">
-                <label for="message">Enter your message: </label>
-                <textarea type="message" name="message" id="message" required></textarea>
-              </div>
-
-
-            <div class="form-example">
-              <input type="submit" value="Go!">
+        
+        <div class="col-md-5 offset-md-1 mb-3 mx-auto">
+          <form>
+            <h5>Subscribe to my newsletter(Coming soon)</h5>
+            <p>Monthly update on what's happening in the mortgage and financial markets.</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email address</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+              <button class="btn btn-primary" type="button">Subscribe</button>
             </div>
           </form>
+        </div>
+      </div>
+  
+      <div class="d-flex flex-column flex-sm-row justify-content-center py-4 my-4 border-top">
+        <p>© 2023 Dylan Rayburn | rayburnmortgage@gmail.com</p>
+    </footer>
+  </div>
 
 
-          <footer>
-            <p>Link Social Media's</p>
-            <a id ="linkedIn" href="https://www.linkedin.com/in/dylan-rayburn-a6b93499"><img src="linkedIn.jpg" alt="linkedIn" height="30"></a>
-              <p>&copy; 2023 Dylan Rayburn | rayburnmortgage@gmail.com</p>
-            </footer>
 
-            <script src="main.js"></script>
-            <script src="workbook.js"></script>
-            
-            
-            </html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+
+
+
+
+
+
+
+
+
+</html>
