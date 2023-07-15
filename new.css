@@ -13,8 +13,7 @@ text-align: left;
 }
 
 #Highlights{
-
-    float: left;
+text-align: left;
     padding: 10px;
 font-weight: bold;
 }
@@ -35,3 +34,27 @@ margin: 40px;
 .ContactForm>h3{
     padding-bottom: 15px;
 }
+
+
+
+.card{
+text-align: left;
+padding: 10px;
+
+}
+
+.text-left{
+    text-align: left;
+}
+
+.dateItalic{
+    font:italic;
+    font-size: 12px;
+
+}
+
+#footerTM{
+    font-size: 12px;
+    text-align: center;
+}
+
